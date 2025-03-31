@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Library Management System</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style type="text/css">
+    
+    a {
+	text-decoration: none;
+}
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-book-reader"></i>
+                    <span>Digital Library</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="getBooksServlet">Books</a></li>
+                    <li><a href="add-book.html">Add Book</a></li>
+                    <li><a href="searchServlet">Search</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to Digital Library</h1>
+                    <p>Manage your book collection efficiently and effectively</p>
+                    <button class="cta-button">Get Started</button>
+                </div>
+            </section>
+
+            <section class="features">
+            <a href="add-book.html">
+                <div class="feature-card">
+                    <i class="fas fa-plus-circle"></i>
+                    <h3>Add Books</h3>
+                    <p>Easily add new books to your collection</p>
+                </div>
+            </a>
+            <a href="searchServlet">
+                <div class="feature-card">
+                    <i class="fas fa-search"></i>
+                    <h3>Search Books</h3>
+                    <p>Quickly find books by ID or title</p>
+                </div>
+            </a>
+            <a href="getBooksServlet">
+                <div class="feature-card">
+                    <i class="fas fa-edit"></i>
+                    <h3>Update Details</h3>
+                    <p>Modify book information as needed</p>
+                </div>
+            </a>
+            <a href="getBooksServlet"">
+                <div class="feature-card">
+                    <i class="fas fa-trash-alt"></i>
+                    <h3>Remove Books</h3>
+                    <p>Delete books from your collection</p>
+                </div>
+            </a>
+            </section>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p>Email: library@example.com</p>
+                    <p>Phone: (555) 123-4567</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Digital Library. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html> 
